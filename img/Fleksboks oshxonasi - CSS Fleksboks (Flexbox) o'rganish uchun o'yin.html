@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!-- saved from url=(0034)https://flexoshxonasi.netlify.app/ -->
+<html lang="uz"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Fleksboks oshxonasi - CSS Fleksboks (Flexbox) o'rganish uchun o'yin</title>
+    <meta name="description" content="CSS fleksboks darslari">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#8bc34a">
+    <link rel="stylesheet" href="./Fleksboks oshxonasi - CSS Fleksboks (Flexbox) o&#39;rganish uchun o&#39;yin_files/animate.min.css">
+    <link href="./Fleksboks oshxonasi - CSS Fleksboks (Flexbox) o&#39;rganish uchun o&#39;yin_files/css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="./Fleksboks oshxonasi - CSS Fleksboks (Flexbox) o&#39;rganish uchun o&#39;yin_files/style.css">
+    <link rel="shortcut icon" type="image/png" href="https://flexoshxonasi.netlify.app/favicon.png">
+  </head>
+  <body>
+    <section id="sidebar">
+      <div>
+        <div id="level-counter">
+          <span class="arrow left disabled">◀</span>
+          <span id="level-indicator">
+            <span id="labelLevel" class="translate">Bosqich</span>
+            <span class="current">1</span>
+            <span id="labelOf" class="translate">/</span>
+            <span class="total">24</span>
+            <span class="caret">▾</span>
+          </span>
+          <span class="arrow right">▶</span>
+          <div id="levelsWrapper" class="tooltip" style="display: none;">
+            <div id="levels"><span class="level-marker current" data-level="0">1</span><span class="level-marker" data-level="1">2</span><span class="level-marker" data-level="2">3</span><span class="level-marker" data-level="3">4</span><span class="level-marker" data-level="4">5</span><span class="level-marker" data-level="5">6</span><span class="level-marker" data-level="6">7</span><span class="level-marker" data-level="7">8</span><span class="level-marker" data-level="8">9</span><span class="level-marker" data-level="9">10</span><span class="level-marker" data-level="10">11</span><span class="level-marker" data-level="11">12</span><span class="level-marker" data-level="12">13</span><span class="level-marker" data-level="13">14</span><span class="level-marker" data-level="14">15</span><span class="level-marker" data-level="15">16</span><span class="level-marker" data-level="16">17</span><span class="level-marker" data-level="17">18</span><span class="level-marker" data-level="18">19</span><span class="level-marker" data-level="19">20</span><span class="level-marker" data-level="20">21</span><span class="level-marker" data-level="21">22</span><span class="level-marker" data-level="22">23</span><span class="level-marker" data-level="23">24</span></div>
+            <div id="labelReset" class="translate">Qayta tiklash</div>
+          </div>
+        </div>
+        <h1>Fleksboks oshxonasi</h1>
+        <p id="instructions"><p>Fleksboks oshxonasiga xush kelibsiz. Bu o'yinda siz oshxonadagi xizmatchiga CSS buyruqlarni yozib xontaxtada somsalarni o'z likoplariga joylashga yordam berasiz. Xontaxtani biz Fleksboks idishi sifatida qo'llaymiz. <code class="help">justify-content</code> xususiyatidan foydalanib bu somsani o'ng tomondagi likopga joylang. Bu xususiyat buyumlarni yotiq o'q (chapdan o'nga) bo'yicha saflaydi va quyidagi qiymatlarning biriga ega bo'ladi:</p><ul><li><code>flex-start</code> – buyumlarni idishning chap tomoniga saflash.</li><li><code>flex-end</code> – buyumlarni idishning o'ng tomoniga saflash.</li><li><code>center</code> – buyumlarni idishning o'rtasiga saflash.</li><li><code>space-between</code> – buyumlarni orasida teng masofa bilan saflash.</li><li><code>space-around</code> – buyumlarni atrofida teng masofa bilan saflash.</li><li><code>space-evenly</code> – <code>space-between</code> kabi, lekin chegaralargacha masofa ham inobatga olinadi.</li></ul><p>Masalan <code>justify-content: flex-end;</code> somsani o'ngga joylaydi.</p></p>
+        <p id="docs"></p>
+      </div>
+      <div id="editor">
+        <div id="css">
+          <div class="line-numbers">
+            1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br>10
+          </div>
+          <pre id="before">#xontaxta {
+  display: flex;
+</pre>
+          <textarea id="code" autofocus="" style="height: 24px;"></textarea>
+          <pre id="after">}</pre>
+        </div>
+        <button id="next" class="translate disabled">Keyingisi</button>
+      </div>
+
+      <div class="credits">
+        <span id="labelFooter" class="translate">Tomas Parkning 'Flexbox Froggy' o'yinining o'zbek tiliga moslashtirilgan talqini.</span>
+        <a href="https://github.com/subh-tashkiloti/fleksboks-oshxonasi">GitHub</a>.
+      </div>
+      <div>
+        <br><br>
+        <p>Man Flexbox oshxonasi o'chb qolgani uchun o'zimning githubimda yoqib qo'ydim</p>
+        <a href="https://t.me/muhammadyunusuz">Bu mani telegramim</a>
+      </div>
+    </section>
+    <section id="view">
+      <div id="board">
+        <div id="xontaxta" style=""><div class="frog yashil"><div class="bg animated pulse infinite"></div></div></div>
+        <div id="background" style="justify-content: flex-end;"><div class="lilypad yashil"><div class="bg" style="transform: scale(0.96049) rotate(288.403deg);"></div></div></div>
+      </div>
+    </section>
+    <script src="./Fleksboks oshxonasi - CSS Fleksboks (Flexbox) o&#39;rganish uchun o&#39;yin_files/jquery-1.12.4.min.js.download"></script>
+    <script src="./Fleksboks oshxonasi - CSS Fleksboks (Flexbox) o&#39;rganish uchun o&#39;yin_files/levels.js.download"></script>
+    <script src="./Fleksboks oshxonasi - CSS Fleksboks (Flexbox) o&#39;rganish uchun o&#39;yin_files/docs.js.download"></script>
+    <script src="./Fleksboks oshxonasi - CSS Fleksboks (Flexbox) o&#39;rganish uchun o&#39;yin_files/messages.js.download"></script>
+    <script src="./Fleksboks oshxonasi - CSS Fleksboks (Flexbox) o&#39;rganish uchun o&#39;yin_files/game.js.download"></script>
+  
+
+</body></html>

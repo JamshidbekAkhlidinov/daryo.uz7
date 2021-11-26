@@ -1,0 +1,154 @@
+* {
+    margin: 0em;
+    padding: 0em;
+}
+
+.container {
+    width: 1140px;
+    margin: 0px auto;
+}
+
+.top {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.top-text {
+    font-size: 15px;
+}
+
+.top-btn {
+    background-color: #0088D1;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+.menyu {
+    background-color: #0088D1;
+}
+
+.menyu-ul {
+    list-style: none;
+}
+
+.home {
+    width: 20px;
+    height: 20px;
+    padding-top: 7px;
+}
+
+.menyu-li {
+    display: inline-block;
+    color: white;
+    padding-left: 15px;
+    padding-bottom: 5px;
+}
+
+.menyu-rss {
+    padding-left: 150px;
+}
+
+.menyu-tg {
+    padding-left: 10px;
+}
+
+.header {
+    justify-content: space-between;
+    align-items: flex-start;
+    box-shadow: 10px 10px 5px black;
+    border-top: white;
+}
+
+.header-ol {
+    list-style: none;
+}
+
+.header-logo {
+    width: 150px;
+    padding-top: 10px;
+}
+
+.header-til {
+    display: inline-block;
+    padding-left: 20px;
+}
+
+.header-harf {
+    color: #0088D1;
+    font-weight: bold;
+}
+
+.header-money {
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.header-weather {
+    display: inline-block;
+}
+
+.header-dowl {
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.news {
+    background-color: #F4F4F4;
+}
+
+.news-ol-2 {
+    display: inline-block;
+    list-style: none;
+    color: #7A848B;
+}
+
+.news-ol-1 {
+    list-style: none;
+}
+
+.news-menyu {
+    display: inline-block;
+}
+
+.news-ol-title {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    color: royalblue;
+    width: 300px;
+}
+
+.news-text {
+    width: 300px;
+    padding-top: 10px;
+    color: black;
+    padding-bottom: 20px;
+}
+
+.news-text:hover {
+    text-decoration: underline;
+}
+
+.news-menyu {
+    list-style: none;
+}
+
+.news-ol-3 {
+    display: inline-block;
+    list-style: none;
+}
+
+.news-men {
+    display: inline-block;
+}
+
+.news-img {
+    width: 300px;
+    padding: 10px;
+}
